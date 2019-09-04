@@ -1,0 +1,28 @@
+.card {
+  background-color: rgb(48, 218, 161);
+  border-radius: 4px;
+  text-align: center;
+  color: rgb(46, 44, 53);
+  padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+.card:focus,
+.card:hover {
+  transform: scale(1.04);
+  outline: none;
+}
+.card:focus {
+  box-shadow: 0 0 1px 3px rgb(63, 185, 255);
+}
+
+.card__name {
+  margin-top: 0.6rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+.card__email {
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.9;
+}
