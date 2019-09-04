@@ -33,6 +33,9 @@ class App extends Component {
           handleChange={e => this.setState({ searchField: e.target.value })}
         />
         <CardList monsters={filteredMonsters}></CardList>
+        {filteredMonsters.length === 0 && monsters.length > 0 ? (
+          <h1 style={{ marginTop: '3rem' }}>Nothing matched</h1>
+        ) : null}
       </div>
     )
   }
