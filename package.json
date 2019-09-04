@@ -2,6 +2,7 @@
   "name": "basic",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://hasansujon786.github.io/monsters-rolodex",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -12,7 +13,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeplot": "yarn build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
